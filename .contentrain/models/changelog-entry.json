@@ -1,0 +1,25 @@
+{
+  "domain": "product",
+  "title_field": "title",
+  "fields": {
+    "release_date": {
+      "required": true,
+      "type": "date"
+    },
+    "slug": {
+      "required": true,
+      "type": "slug",
+      "unique": true
+    },
+    "summary": {
+      "type": "text"
+    },
+    "title": {
+      "required": true,
+      "type": "string"
+    }
+  },
+  "i18n": true,
+  "id": "changelog-entry",
+  "kind": "document"
+}

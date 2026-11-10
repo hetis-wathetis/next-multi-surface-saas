@@ -1,0 +1,35 @@
+{
+  "content_path": "docs",
+  "domain": "docs",
+  "title_field": "title",
+  "fields": {
+    "description": {
+      "type": "text"
+    },
+    "layout": {
+      "options": [
+        "doc"
+      ],
+      "type": "select"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "sidebar_label": {
+      "type": "string"
+    },
+    "slug": {
+      "required": true,
+      "type": "slug",
+      "unique": true
+    },
+    "title": {
+      "required": true,
+      "type": "string"
+    }
+  },
+  "i18n": false,
+  "id": "docs-page",
+  "kind": "document",
+  "locale_strategy": "none"
+}

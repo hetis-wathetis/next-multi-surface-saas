@@ -1,0 +1,38 @@
+{
+  "domain": "app",
+  "title_field": "title",
+  "fields": {
+    "items": {
+      "items": {
+        "fields": {
+          "hint": {
+            "type": "text"
+          },
+          "label": {
+            "required": true,
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "value": {
+            "required": true,
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "summary": {
+      "type": "text"
+    },
+    "title": {
+      "required": true,
+      "type": "string"
+    }
+  },
+  "i18n": true,
+  "id": "settings-group",
+  "kind": "collection"
+}

@@ -1,0 +1,7 @@
+{
+  "domain": "app",
+  "title_field": "key",
+  "i18n": true,
+  "id": "ui-copy",
+  "kind": "dictionary"
+}
